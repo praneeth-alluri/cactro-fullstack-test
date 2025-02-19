@@ -1,8 +1,7 @@
-apiEndPoints = {
-    http://localhost:4000/api/polls/${poll._id},
-    http://localhost:4000/api/polls,
-    http://localhost:4000/api/polls/${poll._id}/vote
-}
+apiEndPoints :
+    http://localhost:4000/api/polls/${poll._id},            //fetch poll by Id
+    http://localhost:4000/api/polls,                        //post polls
+    http://localhost:4000/api/polls/${poll._id}/vote       //post votes by Id
 
 
 dbSchema :  {
